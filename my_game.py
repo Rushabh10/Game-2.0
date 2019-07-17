@@ -8,13 +8,13 @@ pygame.display.set_caption("Rushabh Game 2.0")
 clock = pygame.time.Clock()
 
 #character moving images
-walkRight = [pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R1.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R2.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R3.png"),
-            pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R4.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R5.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R6.png"),
-            pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R7.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R8.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\R9.png")]
+walkRight = [pygame.image.load(r"Game\R1.png"), pygame.image.load(r"Game\R2.png"), pygame.image.load(r"Game\R3.png"),
+            pygame.image.load(r"Game\R4.png"), pygame.image.load(r"Game\R5.png"), pygame.image.load(r"Game\R6.png"),
+            pygame.image.load(r"Game\R7.png"), pygame.image.load(r"Game\R8.png"), pygame.image.load(r"Game\R9.png")]
 
-walkLeft = [pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L1.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L2.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L3.png"),
-            pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L4.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L5.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L6.png"),
-            pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L7.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L8.png"), pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\L9.png")]
+walkLeft = [pygame.image.load(r"Game\L1.png"), pygame.image.load(r"Game\L2.png"), pygame.image.load(r"Game\L3.png"),
+            pygame.image.load(r"Game\L4.png"), pygame.image.load(r"Game\L5.png"), pygame.image.load(r"Game\L6.png"),
+            pygame.image.load(r"Game\L7.png"), pygame.image.load(r"Game\L8.png"), pygame.image.load(r"Game\L9.png")]
 
 #background image
 bg = pygame.image.load(r"C:\Users\rushi\.spyder-py3\PyGame_Images\Game\bg.jpg")
@@ -129,21 +129,4 @@ while(run):
     
     
 pygame.quit()
-        
-        
-            
-        
-
-
-
-
-
-
-
-
-
-
-
-
-      
         
